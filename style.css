@@ -1,9 +1,11 @@
-body{
+.flex-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-color: lemonchiffon;
+}
+
+
+.flex-container div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 100px;
+  flex: 1; 
 }
