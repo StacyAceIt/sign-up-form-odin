@@ -1,23 +1,23 @@
 .flex-container {
+  background: peachpuff;
+  border: 4px solid brown;
   display: flex;
-  width: 100%;
-  height: 100%;
+}
+
+div {
+  background: peachpuff;
+  border: 4px solid blue;
+  height: 100vh;
+  width: 100vw;
   
 }
 
-.flex-container div {
-  background: peachpuff;
-  border: 4px solid brown;
-  height: 100vh;
-  width: 100vw;
+.left_container{
+  background: rebeccapurple;
+  width: 40%;
 }
 
-.left-container {
-  background-color: lightblue;
-  flex-shrink: 2;
+.right_container{
+  background: greenyellow;
 }
 
-.right-container {
-  flex-grow: 3;
-  background-color: lightcoral;
-}
