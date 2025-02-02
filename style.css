@@ -1,19 +1,16 @@
 .flex-container {
-  background: peachpuff;
-  border: 4px solid brown;
   display: flex;
 }
 
 div {
-  background: peachpuff;
-  border: 4px solid blue;
   height: 100vh;
   width: 100vw;
   
 }
 
 .left_container{
-  background: rebeccapurple;
+  background: url(./image.avif);
+  background-size: contain;
   width: 40%;
 }
 
@@ -21,3 +18,12 @@ div {
   background: greenyellow;
 }
 
+.strip {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100vw; /* Stretches across the entire viewport */
+  height: 15%; /* Adjust thickness of the strip */
+  background: rgba(0, 0, 0, 0.5); /* Example color, adjust as needed */
+  transform: translateY(-50%); /* Centers the strip */
+}
