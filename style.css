@@ -31,7 +31,7 @@
 
 .strip {
   position: absolute;
-  top: 30%;
+  top: 25%;
   width: 100vw; /* Stretches across the entire viewport */
   height: 15%; /* Adjust thickness of the strip */
   background: rgba(0, 0, 0, 0.5); /* Example color, adjust as needed */
