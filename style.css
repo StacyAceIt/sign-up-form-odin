@@ -6,11 +6,15 @@
 }
 
 
-.left_container{
+.left_container {
   background: url(./image.avif);
-  background-size: contain;
-  width: 40%;
-  height: 100vh;
+  background-size: cover; 
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  
+  height: 100vh; /* Full viewport height */
+  width: auto;
+  
 }
 
 .right_container {
