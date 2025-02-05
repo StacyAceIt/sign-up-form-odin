@@ -11,10 +11,10 @@
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
-  
   height: 100vh;
   width: auto;
-  
+  display: flex;
+  flex-direction: column;
 }
 
 .right_container {
