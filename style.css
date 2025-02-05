@@ -33,10 +33,17 @@
   border: 5px solid yellow;
 }
 
-
+.left_container > one {
+  position: relative; /* Ensure child positioning works */
+    display: flex;
+    align-items: flex-end; /* Align items to the bottom */
+    justify-content: center;
+}
 
 .strip{
 
 }
+
+
 
 
